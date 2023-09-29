@@ -8,7 +8,6 @@ const MovieResult = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate()
     const handleInfo = (id) =>{
-        console.log(id)
         dispatch(setId(id))
         navigate(`/movie/${id}`)
     }

@@ -17,7 +17,6 @@ const MovieInfoComp = () => {
     result = <LoadingComp />
   }
   else if (data) {
-    console.log(data)
     result = (
       <>
         <div className='infoWrapper flex-center'>

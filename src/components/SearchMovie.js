@@ -32,7 +32,6 @@ const SearchMovie = () => {
         else if (error) {
             setResult(<ErrorComp />)
             dispatch(reset())
-            console.log(error)
         }
         else {
             dispatch(reset())
