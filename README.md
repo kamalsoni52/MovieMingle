@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Movie Mingle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Movie Mingle Screenshot](screenshot.png)
 
-## Available Scripts
+Movie Mingle is a web application that allows users to search for and discover information about movies. It provides details such as movie titles, descriptions, release dates, and more.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+You can access the live demo of Movie Mingle at [https://movie-mingle-rho.vercel.app/](https://movie-mingle-rho.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Search for movies by title.
+- View detailed information about movies.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Movie Mingle is built using the following technologies and libraries:
 
-### `npm run build`
+- React.js
+- Redux store
+- Redux Toolkit (RTK) Queries
+- TMDB API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run Movie Mingle locally, you will need the following software installed on your machine:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/) (v12.0.0 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```shell
+   git clone https://github.com/your-username/movie-mingle.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd movie-mingle
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+REACT_APP_Authorization_Token=your_tmdb_api_authorization_token
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can copy this markdown content and paste it directly into the README.md file in your GitHub repository. Make sure to replace `your_tmdb_api_authorization_token` with your actual TMDB API authorization token in the `.env` section.
