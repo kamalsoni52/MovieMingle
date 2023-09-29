@@ -39,7 +39,7 @@ html{
 .navbar .link{
     text-decoration: none;
 }
-.navbar>.link>h1{
+.navbar>.link > h1{
     color: var(--carrot-orange);
     font-size: 4rem;
 }
@@ -62,8 +62,7 @@ html{
     font-size: 1.5rem;
     gap: 1.5rem;
     padding: 1rem 2px;
-    font-weight: 900;
-    
+    font-weight: 900;    
 }
 .searchForm > input{
     width: 50%;
@@ -135,17 +134,17 @@ html{
     padding: 1rem 2rem;
     position: relative;    
 }
-
-.contentWrapper{
-    position: relative;
-    
-    padding: 1rem 1.5rem;
-}
 .imgWrapper>img{
     border-radius: 10px;
     width: 300px;
     aspect-ratio: 11/16;
 }
+
+.contentWrapper{
+    position: relative;    
+    padding: 1rem 1.5rem;
+}
+
 .contentWrapper>h1{
     font-weight: 900;
 }
@@ -186,14 +185,16 @@ html{
     font-style: italic;
 }
 .contentWrapper>h3{
-    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
 }
 .overview{
     margin-bottom: 1rem;
     text-align: justify;
 }
 .contentWrapper > h4{
-    margin-bottom: .5rem;
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
 }
 .productionHouse{
     flex-wrap: wrap;
@@ -240,3 +241,43 @@ html{
    @keyframes rotate {
     100%{    transform: rotate(360deg)}
   }
+
+
+
+  /* Your existing CSS styles here */
+
+/* Media Query for screens with a maximum width of 768px (e.g., smartphones) */
+@media screen and (max-width: 767px) {
+    body,html {
+        font-size: 11px;
+    }
+    .searchForm{
+       flex-direction: column-reverse;   
+    }
+    .searchForm > input{
+        width: 90%;
+    }
+    .infoWrapper{
+        flex-direction: column;
+    }
+    .imgWrapper>img{
+        width: 275px;
+        aspect-ratio: 11/16;
+    }
+
+}
+
+/* Media Query for screens with a minimum width of 769px and a maximum width of 1024px (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body,html {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for screens with a minimum width of 1025px (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+    body,html {
+        font-size: 16px;
+    }
+
+}
