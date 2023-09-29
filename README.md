@@ -12,6 +12,7 @@ You can access the live demo of Movie Mingle at [https://movie-mingle-rho.vercel
 
 - Search for movies by title.
 - View detailed information about movies.
+- Responsive Web Design
 
 ## Tech Stack
 
