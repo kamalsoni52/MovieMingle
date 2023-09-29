@@ -38,37 +38,41 @@ To run Movie Mingle locally, you will need the following software installed on y
    ```shell
    git clone https://github.com/your-username/movie-mingle.git
 
-2. Navigate to the project directory
+2. **Navigate to the project directory**:
 
    ```shell
    cd movie-mingle
 
-3. Install the dependencies
-If you use npm
+### Install the dependencies:
+
+- If you use npm:
+
+  ```shell
+  npm install
+
+
+1. Create an `.env` file in the root of your project and add the following environment variable:
    ```shell
-   npm install
-If you use Yarn   
-   
-   ```shell
-   yarn
+      REACT_APP_Authorization_Token=your_tmdb_api_authorization_token
 
-4. Create an .env file in the root of your project and add the following environment variable
 
-   ```shell
-   REACT_APP_Authorization_Token=your_tmdb_api_authorization_token
-Start the development server:
+Replace `your_tmdb_api_authorization_token` with your actual TMDB API authorization token.
 
-If you use npm:
 
-```shell
-   npm start
-If you use Yarn:
+### Usage
 
-```shell
-   yarn start
+2. Start the development server:
 
-Open your web browser and visit http://localhost:3000/ to access the application.
+- Open your web browser and visit [http://localhost:3000/](http://localhost:3000/) to access the application.
 
-Use the search bar to search for movies and explore the features of Movie Mingle.
+- Use the search bar to search for movies and explore the features of Movie Mingle.
 
 Make sure to replace `your_tmdb_api_authorization_token` with your actual TMDB API authorization token in the `.env` section.
+
+## Contact Information
+
+- **Email**: [webdevkamal@gmail.com](mailto:webdevkamal@gmail.com)
+
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/kamal5276/)
+
+
