@@ -1,6 +1,6 @@
 # Movie Mingle
 
-![Movie Mingle Screenshot](screenshot.png)
+![Movie Mingle Screenshot](Screenshot 2023-09-30 005713.png)
 
 Movie Mingle is a web application that allows users to search for and discover information about movies. It provides details such as movie titles, descriptions, release dates, and more.
 
